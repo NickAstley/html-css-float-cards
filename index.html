@@ -13,16 +13,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        <div class="container">
+    <div class="container">
 
-            <header>
-                <h1>Meet Our Team</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestias quas dicta recusandae aspernatur, totam fugit animi beatae quaerat quasi voluptatum delectus impedit explicabo ex, et tempore dolore? Assumenda, animi:</p>
-            </header>
+        <!-- Header -->
+        <header>
+            <h1>Meet Our Team</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestias quas dicta recusandae aspernatur, totam fugit animi beatae quaerat quasi voluptatum delectus impedit explicabo ex, et tempore dolore? Assumenda, animi:</p>
+        </header>
 
-            <div class="team-cards clearfix">
+        <main>
 
+            <!-- Card Section: every card consists of an external .card-container which spaces it from the other cards and floats.
+                Inside there's a div.card which gives it a background and contains the img and the info.
+            -->
+            <section class="team-cards clearfix">
+                
+                <!-- Marco Bianchi -->
                 <div class="card-container">
                     <div class="card clearfix">
                         <img src="img/male1.png" alt="Marco Bianchi">
@@ -33,7 +39,8 @@
                         </div>
                     </div>
                 </div>
-
+    
+                <!-- Laura Rossi -->
                 <div class="card-container">
                     <div class="card clearfix">
                         <img src="img/female1.png" alt="Laura Rossi">
@@ -44,7 +51,8 @@
                         </div>
                     </div>
                 </div>
-
+    
+                <!-- Giorgio Verdi -->
                 <div class="card-container">
                     <div class="card clearfix">
                         <img src="img/male2.png" alt="Giorgio Verdi">
@@ -55,7 +63,8 @@
                         </div>
                     </div>
                 </div>
-
+                
+                <!-- Marta Ipsum -->
                 <div class="card-container">
                     <div class="card clearfix">
                         <img src="img/female2.png" alt="Marta Ipsum">
@@ -66,7 +75,8 @@
                         </div>
                     </div>
                 </div>
-
+                
+                <!-- Roberto Lorem -->
                 <div class="card-container">
                     <div class="card clearfix">
                         <img src="img/male3.png" alt="Roberto Lorem">
@@ -77,7 +87,8 @@
                         </div>
                     </div>
                 </div>
-
+    
+                <!-- Daniela Amet -->
                 <div class="card-container">
                     <div class="card clearfix">
                         <img src="img/female3.png" alt="Daniela Amet">
@@ -88,10 +99,11 @@
                         </div>
                     </div>
                 </div>
+    
+            </section>
 
-            </div>
+        </main>
 
-        </div>
-    </main>
+    </div>
 </body>
 </html>
