@@ -16,21 +16,16 @@ h3 {
 
 header {
   text-align: center;
-  padding:  40px 0;
+  padding: 30px 0;
 }
 
 header h1 {
   color: #E53170;
+  font-size: 36px;
 }
 
 header p {
-  padding-top: 40px;
-}
-
-.container {
-      width: 90%;
-      max-width: 900px;
-      margin: 0 auto;
+  padding-top: 50px;
 }
 
 .clearfix::after{
@@ -39,17 +34,57 @@ header p {
   clear: both;
 }
 
-.card-container {
-  float: left;
-  width: calc(100%/3);
-  padding: 0 20px;
+.container {
+  width: 85%;
+  /* max-width: 900px; */
+  margin: 0 auto;
 }
 
-.card {
+.team-cards, header {
+  padding: 30px 0;
+}
+
+.card-container {
+  float: left;
+  width: calc( (100% / 3) - (60px / 3));
+  padding-bottom: 50px;
+}
+
+.card-container:nth-child(3n + 2) {
+  margin: 0 30px;
+}
+
+.card-container .card {
   background-color: #0F0E17;
   color: white;
+  -webkit-box-shadow: 0 0 5px 2px #fff;
+  -moz-box-shadow: 0 0 5px 2px #fff;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.3);
 }
 
 .card-container .card img {
   width: 100px;
+  float: left;
+}
+
+.card-container .card .card-info {
+  display: inline-block;
+  width: calc(100% - 150px);
+  padding: 15px;
+  height: 100px;
+}
+
+.card-info h3 {
+  text-transform: uppercase;
+}
+
+.card-info span {
+  display: block;
+  padding: 5px 0;
+}
+
+.card-info a {
+  color: #42c6ff;
+  text-decoration: none;
+  font-size: 14px;
 }
