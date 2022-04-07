@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+ body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h3 {
+  font-family: 'Fredoka One', cursive;
+}
+
+header {
+  text-align: center;
+  padding:  40px 0;
+}
+
+header h1 {
+  color: #E53170;
+}
+
+header p {
+  padding-top: 40px;
+}
+
+.container {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-container {
+  float: left;
+  width: calc(100%/3);
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #0F0E17;
+  color: white;
+}
+
+.card-container .card img {
+  width: 100px;
+}
